@@ -1,3 +1,38 @@
-body{
-  background-color: pink;
+p {
+    font-size: 20px;
+    font-family: arial;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(Images/background.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+img {
+    display: block;
+    margin: auto;
+}
+.pages {
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+}
+.pages a {
+    color: rgb(0, 40, 75);
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+}
+.pages a.active {
+    background-color: aqua;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+.pages a:hover:not(.active) {
+    background-color: rgb(168, 168, 168);
+    border-radius: 50px;
+    opacity: 0.7;
 }
