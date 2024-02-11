@@ -5,7 +5,7 @@ p {
 
 body {
     background-color: aquamarine;
-    background-image: url(Images/background.gif);
+    background-image: url(background.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
